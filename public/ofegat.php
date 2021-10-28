@@ -5,10 +5,18 @@ use App\Ofegat;
 $intendInvalids = 0;
 $ofegat = new Ofegat('Imbecil');
 $intendInvalids += $ofegat->addLetter('i');
-$ofegat->render();
+var_dump($intendInvalids,$ofegat->render());
 $intendInvalids += $ofegat->addLetter('b');
-$ofegat->render();
+var_dump($intendInvalids,$ofegat->render());
 $intendInvalids += $ofegat->addLetter('z');
-$ofegat->render();
-dd($intendInvalids);
+var_dump($intendInvalids,$ofegat->render());
+$intendInvalids += $ofegat->addLetter('e');
+var_dump($intendInvalids,$ofegat->render());
+$intendInvalids += $ofegat->addLetter('m');
+var_dump($intendInvalids,$ofegat->render());
+$intendInvalids += $ofegat->addLetter('c');
+var_dump($intendInvalids,$ofegat->render());
+$intendInvalids += $ofegat->addLetter('l');
+var_dump($intendInvalids,$ofegat->render());
+
 
